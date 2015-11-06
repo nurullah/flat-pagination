@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-horizontal-pagination",
+  "homepage": "https://github.com/nstek/bootstrap-horizontal-pagination",
+  "authors": [
+    "nsevinctekin <nsevinctekin@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "GNU",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "fontawesome#~4.4.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap-horizontal-pagination",
+  "version": "1.0.0",
+  "license": "GNU",
+  "author": {
+    "name": "Nurullah Sevinçtekin"
+  },
+  "repository": "https://github.com/nstek/bootstrap-horizontal-pagination.git",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-watch": "^4.3.5"
+  }
+}

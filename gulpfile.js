@@ -1,0 +1,25 @@
+var gulp 	= require('gulp'),
+	concat 	= require('gulp-concat'),
+	minCss 	= require('gulp-minify-css'),
+	watch 	= require('gulp-watch');
+
+// dir
+var CssDir 		= 'css';
+
+// files
+var CssFiles = CssDir + '/bootstrap-horizontal-pagination.css';
+
+// task
+gulp.task('css', function() {
+	gulp.src(CssFiles)
+		.pipe(minCss({compatibility: 'ie8'}))
+		.pipe(concat('bootstrap-horizontal-pagination.min.css'))
+        .pipe(gulp.dest(CssDir));
+});
+
+gulp.task('watch', function() {
+	gulp.watch(CssFiles, ['css']);
+});
+
+
+gulp.task('default', ['css', 'watch']);
