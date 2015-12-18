@@ -4,16 +4,16 @@ var gulp 	= require('gulp'),
 	watch 	= require('gulp-watch');
 
 // dir
-var CssDir 		= 'css';
+var CssDir = 'dist';
 
 // files
-var CssFiles = CssDir + '/bootstrap-horizontal-pagination.css';
+var CssFiles = CssDir + '/flat-pagination.css';
 
 // task
 gulp.task('css', function() {
 	gulp.src(CssFiles)
 		.pipe(minCss({compatibility: 'ie8'}))
-		.pipe(concat('bootstrap-horizontal-pagination.min.css'))
+		.pipe(concat('flat-pagination.min.css'))
         .pipe(gulp.dest(CssDir));
 });
 

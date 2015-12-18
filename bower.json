@@ -1,13 +1,13 @@
 {
-  "name": "bootstrap-horizontal-pagination",
-  "homepage": "https://github.com/nstek/bootstrap-horizontal-pagination",
+  "name": "flat-pagination",
+  "homepage": "https://github.com/nstek/flat-pagination",
   "authors": [
     "nsevinctekin <nsevinctekin@gmail.com>"
   ],
   "description": "",
   "main": "",
   "moduleType": [],
-  "license": "GNU",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",

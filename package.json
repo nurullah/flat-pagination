@@ -1,13 +1,14 @@
 {
-  "name": "bootstrap-horizontal-pagination",
+  "name": "flat-pagination",
   "version": "1.0.0",
-  "license": "GNU",
+  "license": "MIT",
   "author": {
     "name": "Nurullah Sevinçtekin"
   },
-  "repository": "https://github.com/nstek/bootstrap-horizontal-pagination.git",
+  "repository": "https://github.com/nstek/flat-pagination.git",
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
     "gulp-minify-css": "^1.2.1",
     "gulp-watch": "^4.3.5"
   }
